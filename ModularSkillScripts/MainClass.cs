@@ -231,6 +231,7 @@ public class MainClass : BasePlugin
 		acquirerDict["skillcanduel"] = new AcquirerSkillCanDuel();
 		acquirerDict["skillteamkill"] = new AcquirerSkillTeamKill();
 		acquirerDict["skillfixedtarget"] = new AcquirerSkillFixed();
+		acquirerDict["coinoperator"] = new AcquirerCoinOperator();
 	}
 
 	public static System.Collections.Generic.List<BattleUnitModel> ShuffleUnits(
